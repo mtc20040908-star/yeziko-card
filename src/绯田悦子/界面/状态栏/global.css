@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --c-primary: #8a3a3a;
+  --c-bg-light: #f7f2ea;
+  --c-bg-dark: #17120f;
+  --c-ink: #2b2622;
+  --c-muted: #8d8178;
+  --c-accent: #c9a227;
+  --c-line: #b8a898;
+  --font-status: 'Georgia', 'Microsoft YaHei', serif;
+}

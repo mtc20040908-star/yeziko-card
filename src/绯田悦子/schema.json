@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "系统": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "当前区域": {
+          "default": "绯田宅",
+          "type": "string",
+          "enum": [
+            "绯田宅",
+            "密室调教别荘"
+          ]
+        },
+        "剧情阶段": {
+          "default": "日常",
+          "type": "string",
+          "enum": [
+            "日常",
+            "被掳",
+            "初调教",
+            "沉沦",
+            "终局"
+          ]
+        }
+      }
+    },
+    "悦子": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "堕落度": {
+          "default": 0,
+          "type": "number"
+        },
+        "快感依赖": {
+          "default": 0,
+          "type": "number"
+        },
+        "当前着装": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "整体风格": {
+              "default": "日常居家装",
+              "type": "string"
+            },
+            "上装": {
+              "default": "浅色家居服",
+              "type": "string"
+            },
+            "下装": {
+              "default": "家常长裤",
+              "type": "string"
+            },
+            "内衣": {
+              "default": "白色内衣",
+              "type": "string"
+            },
+            "袜子": {
+              "default": "棉袜",
+              "type": "string"
+            },
+            "鞋履": {
+              "default": "拖鞋",
+              "type": "string"
+            },
+            "束具": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "胸部": {
+                  "default": "无",
+                  "type": "string"
+                },
+                "手腕": {
+                  "default": "无",
+                  "type": "string"
+                },
+                "足踝": {
+                  "default": "无",
+                  "type": "string"
+                },
+                "腰部": {
+                  "default": "无",
+                  "type": "string"
+                },
+                "私处": {
+                  "default": "无",
+                  "type": "string"
+                },
+                "臀部": {
+                  "default": "无",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

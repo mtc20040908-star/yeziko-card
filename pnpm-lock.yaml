@@ -5388,7 +5388,11 @@ snapshots:
       baseline-browser-mapping: 2.11.12
       caniuse-lite: 1.0.30001806
       electron-to-chromium: 1.5.400
+<<<<<<< HEAD
       node-releases: 2.0.52
+=======
+      node-releases: 2.0.51
+>>>>>>> ffcef6e22b372e2f3dcc1048bf50073234505d74
       update-browserslist-db: 1.2.3(browserslist@4.28.7)
 
   buffer-from@1.1.2: {}
